@@ -16,7 +16,7 @@ python3 --version
 node --version
 claude --version
 ```
-- Needs Python 3.13 and Node 22. If git is missing, run `xcode-select --install`.
+- Needs Node 22 and any `python3` from 3.9 up; the one that comes with git is enough. If git is missing, run `xcode-select --install`. The competitive tool installs its own Python 3.13 through uv in step 7.
 - The toolkit's agents and hooks run in Claude Code, and the competitive tool's summaries call `claude -p`. If Claude Code is not installed, say so.
 - **STOP** if anything is missing or the wrong version: tell the owner which ones, and install them only the way the owner says.
 
